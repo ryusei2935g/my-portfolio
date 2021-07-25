@@ -9,7 +9,95 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="header-logo">自己紹介</div>
+      <div class="header-container">
+        <ul id = "header-list">
+          <li class = "header-list-item">
+            <a class = "nav-link" href = "#home">HOME</a>
+          </li>
+          <li class = "header-list-item">
+            <a class = "nav-link" href = "#informations">INFORMATION</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div id = "home">
+      <div class ="top-wrapper">
+        <div class="top-wrapper-container">
+          <h2>Ryusei Yasuda</h2>
+          <h3>安田  龍生</h3>
+          <p>JavaScript 1st Portfolio</p>
+        </div>
+      </div>
+    </div>
+    <div id = "informations">
+      <div class ="informations-wrapper">
+        <div class="informations-container">
+          <div class="heading">
+            <h2>INFORMATION</h2>
+          </div>
+          <div class="informations-list">
+            <div class="informations-point">
+              <p class="informations-title">名前</p>
+              <p class="informations-answer">安田龍生</p>
+            </div>
+          </div>
+          <br>
+          <div class="informations-list">
+            <div class="informations-point">
+              <p class="informations-title">年齢</p>
+              <p class="informations-answer">21歳</p>
+            </div>
+          </div>
+          <br>
+          <div class="informations-list">
+            <div class="informations-point">
+              <p class="informations-title">出身地</p>
+              <p class="informations-answer">北海道</p>
+            </div>
+          </div>
+          <br>
+          <div class="informations-list">
+            <div class="informations-point">
+              <p class="informations-title">大学</p>
+              <a href="https://www.hgu.jp/"><p class="informations-answer">北海学園大学</p></a>
+            </div>
+          </div>
+          <br>
+          <div class="informations-list">
+            <div class="informations-point">
+              <p class="informations-title">趣味</p>
+              <p class="informations-answer">🏀バスケ🏀</p>
+            </div>
+          </div>
+          <br>
+          <div class="informations-list">
+            <div class="informations-point">
+              <p class="informations-title">SNS</p>
+              <a href="https://www.instagram.com/ryusei.blade"><p class="informations-answer">Instagram </p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>エモ写真</h2>
+      <img src="" alt="エモい写真" id="emoi-image" />
+    </div>
+    <div>
+      <h2>出身地は北海道のどこでしょう？</h2>
+      <img id="quiz-image" src="hokkaidou.image.jpg" />
+      <div>
+        <button id="choice-1">稚内</button>
+        <button id="choice-2">旭川</button>
+        <button id="choice-3">札幌</button>
+      </div>
+      <div id="feedback"></div>
+    <footer>
+      <div class = "container">
+        <p>&copy; 2021 YasudaRyusei</p>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
